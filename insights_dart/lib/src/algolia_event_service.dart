@@ -56,6 +56,7 @@ extension AlgoliaEventConversion on Event {
         index: indexName,
         userToken: userToken,
         timestamp: timestamp,
+        queryID: queryID,
         objectIDs: objectIDs?.toList(),
         positions: positions?.toList(),
         filters: filterValues?.map((value) => '$attribute:$value').toList(),
